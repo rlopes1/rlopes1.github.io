@@ -31,8 +31,12 @@ body {
 
 
 .header {
-    display: flex;
+
     position: fixed;
+    display: grid;
+    grid-template-columns: 5% 30% 40% 25%;
+    justify-content: center;
+    align-items: center;
     z-index: 30;
     width: 100%;
     letter-spacing: 1px;
@@ -50,13 +54,13 @@ body {
 
 
 .topname h1{
-    font-size: clamp(1vw, 3vw, 4vw);
+    font-size: clamp(1vw, 2.5vw, 4vw);
     padding-inline: 20px;
 }
 
 
 .nav a{
-    font-size: clamp(1vw, 2vw, 3vw);
+    font-size: clamp(1vw, 1.5vw, 3vw);
     padding-inline: 10px;
 }
 .nav a:hover {
@@ -69,6 +73,7 @@ body {
 
 
 .social {
+    justify-self: right;
     margin-inline: 10px;
 }
 .social a img{
@@ -86,6 +91,7 @@ body {
     .header {
         display: block;
         text-align: center;
+        width: 100%;
     }
     .nav {
         padding-block: 10px;
@@ -108,6 +114,7 @@ body {
     }
     .resume {
         top: 40vw;
+        width: 100%;
     }
     .footer {
         top: 50vw;
