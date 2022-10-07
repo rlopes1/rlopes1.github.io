@@ -1,4 +1,4 @@
-const text = document.querySelector(".introtext");
+/*const text = document.querySelector(".introtext");
 const strText = text.textContent;
 
 const splitText = strText.split("");
@@ -43,4 +43,15 @@ function onTick() {
 function complete() {
    clearInterval(timer);
    timer = null;
+}
+*/
+
+
+let popupArray = document.querySelectorAll('.popup');
+
+function openPopup(i) {
+   popupArray[i].classList.add("openPopup");
+}
+function closePopup(i) {
+   popupArray[i].classList.remove("openPopup");
 }
