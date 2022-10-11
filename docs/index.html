@@ -6,29 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Cid Lopes</title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="icon" type="image/rcllogo"href="/images/rllogo-transp.png">
+    <link rel="stylesheet" href="/docs/stylesheets/style.css">
+    <link rel="icon" type="image"href="/docs/images/RCLCircleLogoLight.png">
 </head>
 
 <body>
-        <div class="header">
-            <div class="topname">           
-                <h1>R C L</h1>
-            </div>
-            <div class="nav">
+
+    <div class="header"> 
+        <h1>R c L</h1>
+        <div class="nav">
                 <a href="#top">Home</a>
                 <a href="#projects">Projects</a>
                 <a href="#about">About</a>
                 <a href="#resume">Resume</a>
-            </div>
-            <div class ="social">
-                <a href="https://github.com/rlopes1"target="_blank"><img src="/images/gh_logo.png" alt="Github" tag="git"></a>   
-                <a href="https://www.linkedin.com/in/rcidl/"target="_blank"><img src="/images/li_logo.png" alt="Linkedin"></a> 
-                <a href="mailto:rodrigocidlopes@gmail.com"target="_blank"><img src="/images/gm_logo.png" alt="Email"></a> 
-            </div>
-
-
         </div>
+        <div class ="social">
+                <a href="https://github.com/rlopes1"target="_blank"><img src="/docs/images/gh_logo.png" alt="Github" tag="git"></a>   
+                <a href="https://www.linkedin.com/in/rcidl/"target="_blank"><img src="/docs/images/li_logo.png" alt="Linkedin"></a> 
+                <a href="mailto:rodrigocidlopes@gmail.com"target="_blank"><img src="/docs/images/gm_logo.png" alt="Email"></a> 
+        </div>
+    </div>
 
     <br tag="top">
     <div class="intro">
@@ -38,76 +35,88 @@
         <p>This is my portfolio.</p>
     </div>
 
-    <span id="projects"><br><br><br></span>
+    <span id="projects"></span>
     <div class="projects">
         <h2>My Projects:</h2>
         <a href=""></a>
-        <img src="/images/rllogo.png" alt="" onclick="openPopup(0)">
-        <div class="popup">
+        <img src="/docs/images/RCLBoxLogoWhite.png" alt="" onclick="openPopup(0)">
+        <div class="popup website">
             <div>
                 <h1>Portfolio Website</h1>
-                <p>This website was created by me, using Javascript, 
-                    HTML, and CSS. I am continually working on improving this site, so check
-                    back every once and a while to see how I've improved!</p> 
+                <p>I made this website entirely using vanilla Javascript, HTML, and CSS (I know crazy, right?). 
+                    Doing so helped me learn the fundamentals of web development very well (ESPECIALLY CSS, it took me a while, 
+                    but I feel very confident with it now). I am currently working on recreating this entire website using React and 
+                    implementing a backend, so that I can dynamically update it when I want to add new projects!
+                    <a href="https://github.com/rlopes1/rlopes1.github.io" target="_blank">Click me to view the repository!</a></p> 
+                    <p id="codedesc">Here's most of the code that makes this section of the website work:</p>
+                    <div class="slider">
+
+                        <div class="slide"><img src="/docs/images/html.png" alt=""></div>
+                        <div class="slide"><img src="/docs/images/css.png" alt=""></div>
+                        <div class="slide"><img src="/docs/images/js.png" alt=""></div>
+                        <button class="btn nextbutton">></button>
+                        <button class="btn prevbutton"><
+                    </div>
             </div>
             <div class="exitpop">
-                <img src="/images/x.png" alt="" onclick="closePopup(0)">
+                <img src="/docs/images/x.png" alt="" onclick="closePopup(0)">
             </div>
         </div>
-        <img src="/images/pacmanlogo.webp" alt="" onclick="openPopup(1)">
+        <img src="/docs/images/pacmanlogo.webp" alt="" onclick="openPopup(1)">
         <div class="popup">
             <div>
                 <h1>Java Pacman</h1>
-                <p>I am making pacman using only Java. This project implements 
-                Java's UI packages like swing and awt to draw the level. An integer array and 
-                bitwise operators are used to create the level. <a href=""></a> </p>
+                <p>I am recreating the classic arcade game 'Pacman' using nothing but Java and Java's built-in UI packages (swing, awt).
+                    I have learned so much about interacting with different data structures like the 2D arrays used for the map, and I am
+                    currently working on an A* pathfinding algorithm for the enemy AI. 
+                    <a href="https://github.com/rlopes1/JavaPacMan" target="_blank">Click me to view the repository!</a> </p>
+                    <img src="/docs/images/pac.gif" alt="" id="pacimg">
             </div>
             <div class="exitpop">
-                <img src="/images/x.png" alt="" onclick="closePopup(1)">
+                <img src="/docs/images/x.png" alt="" onclick="closePopup(1)">
             </div>
         </div>                
         <a href=""></a>
     </div>
 
-    <br tag="about">
     <div class="about" id="about">
         <h1 id="abouttext">Me:</h1>
 
-        <img src="/images/edu.png" alt="">
+        <img src="/docs/images/gradcap.png" alt="">
         <span> I am currently taking my first semester for my computer science BS at Florida International University. I have my BA in economics, and have
             always enjoyed the more technical aspects of the field (taking advanced math, econometrics, and a bit of programming), so I decided to pursue my
             passion and study computer science.
         </span>
-        <img src="/images/job.png" alt="">
+        <img src="/docs/images/suitcase.png" alt="">
         <span> I have some experience in finance and data analytics, but I am currently looking to intern as a software
             engineer. I'm a sponge when it comes to learning new things, whether it's professional or one of my many hobbies! 
             I'm all about finding novel and better ways to do and see things.
         </span>
-        <img src="/images/hobby.png" alt="">
+        <img src="/docs/images/guitar.png" alt="">
         <span>
             Outside of school, you can find me at the gym, playing music and singing, or just at a local music venue. I play guitar, and my specialties
             range from classical/flamenco guitar, to heavy metal!
         </span>
-        <h5></h5>
+        <div id="aboutbg"></div>
     </div>
 
     <div class="resume" id="resume">
         <h1>Resume:</h1>
         <a href="/resume/Resume_Sep2022_RCL.pdf" download="" id="pdf">.pdf</a>
         <a href="/resume/Resume_Sep2022_RCL.docx" download="" id="docx">.docx</a>
-        <img src="/images/resume.png" alt="">
+        <img src="/docs/images/resume.png" alt="">
     </div>
 
     <div class="footer">
         <a href=""></a>
 
-        <a href="https://github.com/rlopes1"target="_blank"><img src="/images/gh_logo.png" alt="Github"></a>
-        <a href="https://www.linkedin.com/in/rcidl/"target="_blank"><img src="/images/li_logo.png" alt="Linkedin"></a>
-        <a href="mailto:rodrigocidlopes@gmail.com"target="_blank"><img src="/images/gm_logo.png" alt="Email"></a>
+        <a href="https://github.com/rlopes1"target="_blank"><img src="/docs/images/gh_logo.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/rcidl/"target="_blank"><img src="/docs/images/li_logo.png" alt="Linkedin"></a>
+        <a href="mailto:rodrigocidlopes@gmail.com"target="_blank"><img src="/docs/images/gm_logo.png" alt="Email"></a>
         <a href="https://github.com/rlopes1/rlopes1.github.io" id="repolink">Designed and created by Rodrigo Lopes, 2022</a>
         <a href=""></a>
     </div>
 
-    <script src="/js/app.js"></script>
+    <script src="/docs/js/app.js"></script>
 </body>
 </html>
