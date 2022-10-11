@@ -6,19 +6,19 @@
 }
 @font-face {
     font-family: fancy;
-    src: url("/docs/fonts/CaviarDreams.ttf") format('truetype');
+    src: url("/fonts/CaviarDreams.ttf") format('truetype');
 }
 @font-face {
     font-family: fancy-thick;
-    src: url("/docs/fonts/CaviarDreams_Bold.ttf") format('truetype');
+    src: url("/fonts/CaviarDreams_Bold.ttf") format('truetype');
 }
 @font-face {
     font-family: plain;
-    src: url("/docs/fonts/Louis\ George\ Cafe\ Light.ttf") format('truetype');
+    src: url("/fonts/Louis\ George\ Cafe\ Light.ttf") format('truetype');
 }
 @font-face {
     font-family: xtra;
-    src: url("/docs/fonts/BDMegalonaDEMOPersonalUseOnly-RegularItalic.otf") format('opentype');
+    src: url("/fonts/BDMegalonaDEMOPersonalUseOnly-RegularItalic.otf") format('opentype');
 }
 * {
     margin: 0;
@@ -199,7 +199,7 @@ body {
     animation-delay: 2s;
 }
 .intro div {
-    background-image: url(/docs/images/wideshot3.jpg);
+    background-image: url(/images/wideshot3.jpg);
     background-attachment: fixed;
     background-size:contain;
     background-repeat: no-repeat;
@@ -421,7 +421,7 @@ body {
     width: 50vw;
     height: 117%;
 
-    background-image: url(/docs/images/natureshot.jpg);
+    background-image: url(/images/natureshot.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
