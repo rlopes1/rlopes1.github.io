@@ -349,9 +349,8 @@ body {
     color: #6d50ef;
 }
 .popup img {
-    width: 100%;
-    height: 50vw;
-    height: auto;
+    height: 50vh;
+    width: auto;
     position: fixed;
 
     filter: none;
@@ -371,6 +370,7 @@ body {
     border: none;
     box-shadow: none;
     width: 20px;
+    height: 20px;
     left: 97.5%;
     top: -1%;
 }
