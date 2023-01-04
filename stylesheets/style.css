@@ -120,7 +120,7 @@ body {
 }
 .social {
   justify-self: right;
-  padding-right: 15px;
+  padding-right: 45px;
 }
 .social a img {
   height: 2vw;
@@ -166,7 +166,7 @@ body {
 
 .projects {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: auto;
   justify-items: center;
 
@@ -189,6 +189,7 @@ body {
 .projects img {
   filter: sepia(100%) saturate(50%) brightness(80%) hue-rotate(250deg);
   width: 12vw;
+  height: 12vw;
   box-shadow: 0 4px 8px #161616;
   border-style: solid;
 }
@@ -253,6 +254,10 @@ body {
   width: 60vw;
 }
 
+#codenected {
+  margin-left: 50%;
+  margin-top: 10%;
+}
 .popup {
   opacity: 0;
   visibility: hidden;
@@ -296,6 +301,17 @@ body {
   padding-top: 7vh;
 
   width: 41%;
+}
+.nected {
+  display: flex;
+}
+
+.nected p {
+  width: 40%;
+}
+#resumelink {
+  color: lightblue;
+  text-decoration: underline;
 }
 .popup a {
   color: #6d50ef;

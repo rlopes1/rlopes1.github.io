@@ -38,7 +38,24 @@
     <div class="projects">
         <h2>My Projects:</h2>
         <a href=""></a>
-        <img src="/images/RCLBoxLogoWhite.png" alt="" onclick="openPopup(0)">
+        <img src="/images/CodenectedLogo.png" alt="" onclick="openPopup(0)">
+        <div class="popup nected">
+            <div>
+                <h1>CodeNected</h1>
+                <p>During this project, I worked on a team of about 15 engineers and designers to create a multi-page dynamic website. 
+                    I worked on the frontend using React and Sass, and I created the landing page and a few other components myself. I am very proud of my custom components, and used some interesting
+                    Javascript to make these components very interactive and compelling. In addition, I called RESTful APIs from our AWS Lambda backend to dynamically update the data in components.  Working on this
+                    team project and using these technologies has helped me learn so much about frontend, version control, and coordinating on a team of engineers.
+                    <br><a href="https://main.d1hicr0u9dvs8h.amplifyapp.com/" target="_blank">Here's the link to the website!</a>
+                    <br><a href="https://github.com/SparkDevWebIII/codenected" target="_blank"><br>Click me to view the repository!</a></p> 
+                    
+            </div>
+            <img src="/images/codenected.png" id="codenected" alt="">
+            <div class="exitpop">
+                <img src="/images/X.png" alt="" onclick="closePopup(0)">
+            </div>
+        </div>
+        <img src="/images/RCLBoxLogoWhite.png" alt="" onclick="openPopup(1)">
         <div class="popup website">
             <div>
                 <h1>Portfolio Website</h1>
@@ -59,11 +76,11 @@
                     </div>
             </div>
             <div class="exitpop">
-                <img src="/images/X.png" alt="" onclick="closePopup(0)">
+                <img src="/images/X.png" alt="" onclick="closePopup(1)">
             </div>
         </div>
-        <img src="/images/pacmanlogo.webp" alt="" onclick="openPopup(1)">
-        <div class="popup">
+        <img src="/images/pacmanlogo.webp" alt="" onclick="openPopup(2)">
+        <div class="popup pacman">
             <div>
                 <h1>Java Pacman</h1>
                 <p>I am recreating the classic arcade game 'Pacman' using nothing but Java and Java's built-in UI packages (swing, awt).
@@ -73,23 +90,21 @@
                     <img src="/images/pac.gif" alt="" id="pacimg">
             </div>
             <div class="exitpop">
-                <img src="/images/X.png" alt="" onclick="closePopup(1)">
+                <img src="/images/X.png" alt="" onclick="closePopup(2)">
             </div>
         </div>                
-        <a href=""></a>
     </div>
 
     <div class="about" id="about">
         <h1 id="abouttext">Me:</h1>
 
         <img src="/images/gradcap.png" alt="">
-        <span> I am currently taking my first semester for my computer science BS at Florida International University. I have my BA in economics, and have
-            always enjoyed the more technical aspects of the field (taking advanced math, econometrics, and a bit of programming), so I decided to pursue my
-            passion and study computer science.
+        <span> I am a CS student and aspiring full stack software engineer at Florida International University. I have worked with React, Java, Javascript,
+             and more! I also have a strong analytical and mathematical background with my BA in Economics, check out my   <a id="resumelink" href="#resume">resume</a> below to learn more!
         </span>
         <img src="/images/suitcase.png" alt="">
-        <span> I have some experience in finance and data analytics, but I am currently looking to intern as a software
-            engineer. I'm a sponge when it comes to learning new things, whether it's professional or one of my many hobbies! 
+        <span> I have worked on several <a id="resumelink" href="#projects">projects</a> in my short time at FIU and am currently searching for SWE internship opportunities. 
+            I'm a sponge when it comes to learning new things, whether it's professional or one of my many hobbies, and 
             I'm all about finding novel and better ways to do and see things.
         </span>
         <img src="/images/guitar.png" alt="">
